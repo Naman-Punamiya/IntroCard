@@ -28,12 +28,10 @@ class HomeScreen extends StatelessWidget {
                 Row(
                   children: [
                     Container(
-                        // padding: EdgeInsets.all(8),
                         margin: EdgeInsets.all(8),
                         width: 110,
                         height: 110,
                         child:
-                            // Container(),
                             CircleAvatar(
                                 child:
                                     Image.asset("images/GTR_Front_Angle.png"))),
